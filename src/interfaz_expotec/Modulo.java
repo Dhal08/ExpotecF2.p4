@@ -18,10 +18,7 @@ public class Modulo extends javax.swing.JFrame {
     public Modulo() {
         initComponents();
         setExtendedState(JFrame.MAXIMIZED_BOTH);
-
-        // Forzar que el contentPane use null layout
         getContentPane().setLayout(null);
-
         addComponentListener(new java.awt.event.ComponentAdapter() {
             @Override
             public void componentResized(java.awt.event.ComponentEvent evt) {
@@ -259,18 +256,20 @@ public class Modulo extends javax.swing.JFrame {
         int ancho = getContentPane().getWidth();
         int alto = getContentPane().getHeight();
 
-        // jPanel1 ocupa todo
+        // jPanel1 
         jPanel1.setBounds(0, 0, ancho, alto);
         jPanel1.setLayout(null);
 
-        // Barras
+        // Barra superior
         jPanel2.setBounds(0, 0, ancho, 70);
+        
+        // Barra inferior
         jPanel6.setBounds(0, alto - 70, ancho, 70);
 
         int margen = 600;
         int anchoMitad = ancho / 2;
 
-        // Panel título centrado arriba
+        // Panel título
         int anchoPanelTitulo = (int) (ancho * 0.25);
         int altoPanelTitulo = 120;
         int xPanelTitulo = (ancho - anchoPanelTitulo) / 2;
@@ -289,7 +288,7 @@ public class Modulo extends javax.swing.JFrame {
         jLabel12.setBounds(margen, ySeccion, 250, 30);
         jLabel11.setBounds(anchoMitad + 90, ySeccion, 200, 30);
 
-        // Labels temas (columna izquierda)
+        // Labels temas (columna izquierda])
         int anchoLabel = anchoMitad - margen + 80;
         int yTema1 = ySeccion + 40;
         jLabel4.setBounds(margen - 30, yTema1, anchoLabel, 50);

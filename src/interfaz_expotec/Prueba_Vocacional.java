@@ -280,12 +280,13 @@ public class Prueba_Vocacional extends javax.swing.JFrame {
         int ancho = getContentPane().getWidth();
         int alto = getContentPane().getHeight();
 
-        // jPanel1 ocupa todo
+        // Panel 1
         jPanel1.setBounds(0, 0, ancho, alto);
         jPanel1.setLayout(null);
 
-        // Barras
+        // Barra superior
         jPanel2.setBounds(0, 0, ancho, 70);
+        // Barra inferior
         jPanel6.setBounds(0, alto - 70, ancho, 70);
 
         // Panel central
@@ -300,7 +301,7 @@ public class Prueba_Vocacional extends javax.swing.JFrame {
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setBounds(0, 150, anchoPanel, 50);
 
-        // Subtítulos centrados
+        // Subtítulos
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setBounds(0, 215, anchoPanel, 25);
 
@@ -310,7 +311,7 @@ public class Prueba_Vocacional extends javax.swing.JFrame {
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setBounds(0, 275, anchoPanel, 25);
 
-        // Botones centrados
+        // Botones
         int yBoton = altoPanel - 200;
         jButton1.setBounds((anchoPanel / 2) - 240, yBoton, 160, 50);
         jButton2.setBounds((anchoPanel / 2) + 80, yBoton, 160, 50);

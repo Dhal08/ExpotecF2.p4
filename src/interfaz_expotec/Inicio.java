@@ -196,7 +196,10 @@ public class Inicio extends javax.swing.JFrame {
         int ancho = getContentPane().getWidth();
         int alto = getContentPane().getHeight();
 
+        // Barra superior
         jPanel2.setBounds(0, 0, ancho, 70);
+        
+        // Barra inferior
         jPanel6.setBounds(0, alto - 70, ancho, 70);
 
         int anchoPanel = (int) (ancho * 0.65);

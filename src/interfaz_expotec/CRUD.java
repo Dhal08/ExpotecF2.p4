@@ -322,8 +322,6 @@ public class CRUD extends javax.swing.JFrame {
     }
 
     private void ConfigurarComponentesDinamicos() {
-
-        // Para permitir mover componentes manualmente
         jPanel3.setLayout(null);
 
         String[] categorias = {
@@ -406,16 +404,16 @@ public class CRUD extends javax.swing.JFrame {
                 80
         );
 
-        // Título interno
-        jLabel6.setHorizontalAlignment(
-                javax.swing.SwingConstants.CENTER
-        );
+        jPanel7.setLayout(null);
+
+        // Título centrado
+        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
         jLabel6.setBounds(
-                (jPanel7.getWidth() - 200) / 2,
-                (jPanel7.getHeight() - 50) / 2,
-                400,
-                40
+                0,
+                0,
+                jPanel7.getWidth(),
+                jPanel7.getHeight()
         );
 
         // Panel izquierdo
@@ -448,45 +446,45 @@ public class CRUD extends javax.swing.JFrame {
         if (comboFiltro != null) {
 
             comboFiltro.setBounds(
-                    20, // izquierda
-                    20, // arriba
-                    346, // ancho más pequeño
-                    28 // altura más pequeña
+                    20,
+                    20,
+                    346,
+                    28
             );
 
             jTextField1.setBounds(
-                    20, // misma alineación izquierda
-                    210, // debajo del combo
-                    346, // mismo ancho
-                    30 // altura
+                    20,
+                    210,
+                    346,
+                    30
             );
 
             jButton1.setBounds(
-                    45, // misma alineación izquierda
-                    280, // debajo del combo
-                    300, // mismo ancho
-                    35 // altura
+                    45,
+                    280,
+                    300,
+                    35
             );
 
             jButton2.setBounds(
-                    45, // misma alineación izquierda
-                    330, // debajo del combo
-                    300, // mismo ancho
-                    35 // altura
+                    45,
+                    330,
+                    300,
+                    35
             );
 
             jButton3.setBounds(
-                    45, // misma alineación izquierda
-                    380, // debajo del combo
-                    300, // mismo ancho
-                    35 // altura
+                    45,
+                    380,
+                    300,
+                    35
             );
 
             jButton4.setBounds(
-                    45, // misma alineación izquierda
-                    430, // debajo del combo
-                    300, // mismo ancho
-                    35 // altura
+                    45,
+                    430,
+                    300,
+                    35
             );
         }
 

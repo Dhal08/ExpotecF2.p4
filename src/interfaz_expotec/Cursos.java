@@ -712,10 +712,8 @@ public class Cursos extends javax.swing.JFrame {
     jLabel13.setBounds(margen, 150, 300, 30);
     jLabel7.setBounds(margen, 200, 800, 25);
 
-    // Ancho de filas = ancho total menos márgenes
     int anchoFila = ancho - (margen * 2);
-
-    // Posición Y de cada fila
+    
     int yFila1 = 300;
     int yFila2 = yFila1 + altoFila + espacioFila;
     int yFila3 = yFila2 + altoFila + espacioFila;
@@ -728,7 +726,7 @@ public class Cursos extends javax.swing.JFrame {
     int xBoton   = anchoFila - 170;
     int xBloqueo = anchoFila - 340;
 
-    // Fila 1 - jPanel5 (activo, borde naranja)
+    // Fila 1
     jPanel5.setBounds(margen, yFila1, anchoFila, altoFila);
     jLabel4.setBounds(xNumero, 23, anchoNum, 60);
     jLabel48.setBounds(xTexto, 20, anchoFila - 300, 25);
@@ -736,7 +734,7 @@ public class Cursos extends javax.swing.JFrame {
     jLabel19.setBounds(xBloqueo, 30, 160, 25);
     jButton2.setBounds(xBoton, 20, 160, 50);
 
-    // Fila 2 - jPanel13 (bloqueado)
+    // Fila 2
     jPanel13.setBounds(margen, yFila2, anchoFila, altoFila);
     jLabel44.setBounds(xNumero, 23, anchoNum, 60);
     jLabel45.setBounds(xTexto, 20, anchoFila - 300, 25);
@@ -744,7 +742,7 @@ public class Cursos extends javax.swing.JFrame {
     jLabel34.setBounds(xBloqueo, 25, 160, 30);
     jButton9.setBounds(xBoton, 20, 160, 50);
 
-    // Fila 3 - jPanel4 (bloqueado)
+    // Fila 3
     jPanel4.setBounds(margen, yFila3, anchoFila, altoFila);
     jLabel32.setBounds(xNumero, 23, anchoNum, 60);
     jLabel46.setBounds(xTexto, 20, anchoFila - 300, 25);
@@ -752,7 +750,7 @@ public class Cursos extends javax.swing.JFrame {
     jLabel18.setBounds(xBloqueo, 25, 160, 30);
     jButton1.setBounds(xBoton, 20, 160, 50);
 
-    // Fila 4 - jPanel15 (bloqueado)
+    // Fila 4
     jPanel15.setBounds(margen, yFila4, anchoFila, altoFila);
     jLabel38.setBounds(xNumero, 23, anchoNum, 60);
     jLabel47.setBounds(xTexto, 20, anchoFila - 300, 25);

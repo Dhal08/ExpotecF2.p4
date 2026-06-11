@@ -215,7 +215,7 @@ public class CrearCuenta extends javax.swing.JFrame {
         int ancho = getContentPane().getWidth();
         int alto = getContentPane().getHeight();
 
-        // jPanel1 ocupa todo
+        // Panel
         jPanel1.setBounds(0, 0, ancho, alto);
         jPanel1.setLayout(null);
 
@@ -223,7 +223,7 @@ public class CrearCuenta extends javax.swing.JFrame {
         jPanel2.setBounds(0, 0, ancho, 70);
         jPanel6.setBounds(0, alto - 70, ancho, 70);
 
-        // Panel central con tamaño fijo centrado
+        // Panel central
         int anchoPanel = 800;
         int altoPanel = 710;
         int xPanel = (ancho - anchoPanel) / 2;
@@ -232,12 +232,11 @@ public class CrearCuenta extends javax.swing.JFrame {
         jPanel7.setBounds(xPanel, yPanel, anchoPanel, altoPanel);
         jPanel7.setLayout(null);
 
-        // Elementos centrados dentro del panel
         int cx = anchoPanel / 2;
         int anchoInput = 410;
         int xInput = (anchoPanel - anchoInput) / 2;
 
-        // Título centrado
+        // Título
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setBounds(0, 40, anchoPanel, 50);
 
@@ -246,10 +245,10 @@ public class CrearCuenta extends javax.swing.JFrame {
         jTextField2.setBounds(xInput, 210, anchoInput, 50);  // Usuario/correo
         jTextField1.setBounds(xInput, 290, anchoInput, 50);  // Contraseña
 
-        // Botón centrado
+        // Botón
         jButton1.setBounds(cx - 80, 380, 160, 50);
 
-        int bajada = 100; // cambia este valor para subir o bajar todo
+        int bajada = 100;
 
         jLabel6.setBounds(0, 40 + bajada, anchoPanel, 50);
         jTextField3.setBounds(xInput, 130 + bajada, anchoInput, 50);

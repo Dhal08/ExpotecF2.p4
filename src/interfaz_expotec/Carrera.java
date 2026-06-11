@@ -614,7 +614,7 @@ public class Carrera extends javax.swing.JFrame {
         jLabel13.setFont(fontTitulos);
         jLabel6.setFont(fontTitulos);
 
-        // 4. Módulo 3 - Área Específica
+        // Módulo 3 - Área Específica
         jLabel2.setBackground(colorFondoLabel);
         jLabel2.setForeground(colorTitulo);
         jLabel20.setFont(fontLabels);
@@ -631,7 +631,7 @@ public class Carrera extends javax.swing.JFrame {
         jLabel30.setForeground(colorTexto);
         jLabel30.setText("problemas y psedocódigo básico.");
 
-        // 5. Módulo 4 - Área Básica
+        // Módulo 4 - Área Básica
         jLabel3.setBackground(colorFondoLabel);
         jLabel3.setForeground(colorTitulo);
         jLabel11.setFont(fontLabels);
@@ -647,7 +647,7 @@ public class Carrera extends javax.swing.JFrame {
         jLabel19.setFont(new Font("Tahoma", Font.PLAIN, 18));
         jLabel19.setForeground(colorTexto);
 
-        // 6. Módulo 5 - Aptitud
+        // Módulo 5 - Aptitud
         jLabel4.setBackground(colorFondoLabel);
         jLabel4.setForeground(colorTitulo);
         jLabel21.setFont(fontLabels);
@@ -662,9 +662,7 @@ public class Carrera extends javax.swing.JFrame {
         jLabel29.setForeground(colorTexto);
         jLabel31.setFont(fontLabels);
         jLabel31.setForeground(colorTexto);
-
-        // 7. ASIGNACIÓN DE EVENTOS (Reemplazo limpio de los Listeners antiguos)
-        // Limpiamos listeners viejos del jButton1 para evitar duplicidad
+        
         for (java.awt.event.ActionListener al : jButton1.getActionListeners()) {
             jButton1.removeActionListener(al);
         }

@@ -275,7 +275,10 @@ public class InicioSesion extends javax.swing.JFrame {
         jPanel1.setBounds(0, 0, ancho, alto);
         jPanel1.setLayout(null);
 
+        // Barra superior
         jPanel2.setBounds(0, 0, ancho, 70);
+        
+        // Barra inferior
         jPanel6.setBounds(0, alto - 70, ancho, 70);
 
         int anchoPanelIzq = 800;
@@ -290,7 +293,7 @@ public class InicioSesion extends javax.swing.JFrame {
         jPanel7.setBounds(xInicio, yInicio, anchoPanelIzq, altoPanel);
         jPanel7.setLayout(null);
 
-// Textos centrados dentro de jPanel7
+        // Panel
         int cyIzq = altoPanel / 2;
         jLabel6.setBounds((anchoPanelIzq / 2) - 200, cyIzq - 60, 450, 50);
         jLabel7.setBounds((anchoPanelIzq / 2) - 190, cyIzq + 10, 420, 25);
@@ -299,7 +302,7 @@ public class InicioSesion extends javax.swing.JFrame {
         jPanel4.setBounds(xInicio + anchoPanelIzq + separacion, yInicio, anchoPanelDer, altoPanel);
         jPanel4.setLayout(null);
 
-// Formulario centrado dentro de jPanel4
+        // Formulario
         int cyDer = altoPanel / 2 + 80;
         int anchoInput = 274;
         int xInput = (anchoPanelDer - anchoInput) / 2;
